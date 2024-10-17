@@ -150,7 +150,7 @@ header {
   width: 100%;
 }
 .head-home{
-  background-image: url(/assets/image/home-bg.jpg);
+  background-image: url(assets/image/home-bg.jpg);
   width: 100%;
   background-size: cover;
   height: 100vh;
