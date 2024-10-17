@@ -1,0 +1,70 @@
+
+/* You can add global styles to this file, and also import other style files */
+@media screen and (max-width:480px) {
+  .header-section{
+    margin-left: 15% !important;
+  }
+  .line{
+    margin-left: 15% !important;
+  }
+}
+body, html {
+  width: 100% !important;
+  overflow-x: hidden;
+}
+
+*{
+  padding: 0;
+  margin-left: 0;
+  box-sizing: border-box;
+}
+:root {
+  --white_color:white;
+  --main_color:#ff305b;
+  --second_color:#f1f1f1;
+}
+.header-section {
+  margin-left:45% ;
+  font-size:30px ;
+  margin-bottom: 50px;
+  padding-right:10px ;
+  position: relative;
+  height: 60px;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+.line {
+  width: 210px;
+  height: 1px;
+  /* position: absolute;
+  left: 5%;
+  bottom: 0; */
+  margin-left: 45%;
+  background-color: var(--main_color);
+  transform: translateY(-55px)
+}
+.line::after {
+  content: "";
+  width: 71px;
+  height: 1.5px;
+  position: absolute;
+  left: 34%;
+  bottom: -5px;
+  background-color: var(--main_color);
+  transform: translateX(0px);
+}
+.header-section::after {
+  content: "";
+  width: 71px;
+  height: 1.5px;
+  position: absolute;
+  left: 71px;
+  bottom: 8px;
+  background-color: var(--main_color);
+  transform: translateX(0px);
+}
+body{
+  text-transform: capitalize;
+  width: 100%;
+
+}

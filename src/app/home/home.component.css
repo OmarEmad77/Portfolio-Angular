@@ -1,0 +1,382 @@
+@media screen and (min-width:769px) and (max-width:1440px) {
+
+}
+@media screen and (min-width:480px) and  ( max-width:768px)  {
+  body {
+  overflow-x: hidden;
+}
+
+  .nav-bar{
+    width: 100% !important;
+
+  }
+  header{
+    width: 100% !important;
+  }
+  .size ul {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    position: fixed;
+    top: 6%;
+    left: 0;
+    background-color: rgb(51, 51, 51);
+    opacity: 0.3;
+    height: 35% !important;
+  }
+  .size ul li {
+    height: 15% !important;
+  }
+  nav {
+    padding: 5px 0px !important;
+  }
+
+ }
+@media screen and (max-width:480px) {
+  .nav-bar{
+    width: 100% !important;
+    height: 8% !important;
+  }
+  .size ul {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    position: fixed;
+    top: 6%;
+    left: 0;
+    background-color: rgb(51, 51, 51);
+    opacity: 0.3;
+    height: 35% !important;
+    padding: 0px !important;
+    font-size: 1rem !important;
+
+  }
+  .size ul a {
+    font-size: 1rem !important;
+    padding: 0px !important;
+  }
+
+  .home-content h1 {
+    width: 100% !important;
+    font-size: 2.5rem !important;
+  }
+  .home-content h4::after {
+    font-size: 1.3rem  !important;
+  }
+
+
+ }
+@media screen and (max-width:320px) { }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --white_color:white;
+  --main_color:#ff305b;
+  --second_color:#f1f1f1;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+body {
+  font-family: 'Source Sans Pro', "Roboto", sans-serif;
+  color: #4e4e4e;
+  text-transform: capitalize;
+}
+.nav-bar {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(51, 51, 51);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+
+}
+nav{
+  width: 100% !important;
+  display: flex !important;
+  justify-content: space-around !important;
+  font-family: 'Roboto', sans-serif !important;
+  align-items: center !important;
+}
+nav .logo{
+  width: 40% !important;
+  padding: 25px 0px !important;
+
+}
+nav  a {
+  color: var(--white_color);
+  font-weight: 300;
+  letter-spacing: .5008px;
+  transition: color 500ms ease;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--main_color);
+  font-size: 25px;
+}
+.size ul{
+  width: 60%;
+  display: flex;
+  justify-content:space-evenly;
+  margin-right: 18% !important;
+
+}
+.size ul li{
+  list-style: none;
+  padding: 5px  !important;
+  margin-left: 0px;
+}
+.size ul li a {
+  color: var(--white_color);
+  font-weight: 300;
+  letter-spacing: .5008px;
+  transition: color 500ms ease;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 5px;
+}
+nav ul li a:hover {
+  color: var(--main_color);
+}
+header {
+  width: 100%;
+}
+.head-home{
+  background-image: url(/assets/image/home-bg.jpg);
+  width: 100%;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.layer {
+  width: 100% !important;
+  height: 100% !important;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;;
+  position: absolute;
+}
+.home {
+  width: 500px;
+  height: 300px;
+}
+.home .home-content {
+ width: 100%;
+ height: 100%;
+ text-align: center;
+ margin-top: 20%;
+ position: relative;
+ z-index: 1;
+}
+.home .home-content h3 {
+  color: var(--second_color);
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.home .home-content h1 {
+  font-size: 70px;
+  font-weight: 700;
+  color: var(--main_color);
+}
+.home .home-content h4 {
+  position: relative;
+  width: 500px;
+  height: 200px;
+
+}
+.home .home-content h4::after {
+  position: absolute;
+  width: 500px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: "";
+  font-size: large;
+  animation-name: typing;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+  font-size: 26px;
+  color: var(--second_color);
+  text-transform: capitalize;
+  padding: 25px;
+
+}
+
+@keyframes typing {
+  1% {
+   content: "p|";
+
+  }
+  3% {
+     content: "pr|";
+  }
+  6% {
+      content: " pro|";
+  }
+  8% {
+
+      content: "prof|";
+  }
+  10% {
+
+      content: "profe|";
+  }
+
+  12% {
+
+      content: "profe|";
+  }
+  14% {
+
+      content: "profes|";
+  }
+  16% {
+      content: "profess|";
+  }
+  18% {
+      content: "professi|";
+  }
+  20% {
+      content: "professio|";
+  }
+  22% {
+      content: "profession|";
+  }
+
+  24% {
+      content: "professiona|";
+  }
+  26% {
+
+      content: "professional|";
+  }
+  28% {
+      content: "professional w|";
+  }
+  30% {
+      content: " professional we|";
+  }
+  32% {
+      content:" professional web|";
+  }
+  34% {
+      content: "professional web d|";
+  }
+  36% {
+      content: "professional web de|";
+  }
+  38% {
+      content: "professional web des|";
+  }
+  40% {
+      content: "professional web desi|";
+  }
+  42% {
+      content: "professional web desig|";
+  }
+  44% {
+      content: "professional web design|";
+  }
+  46% {
+      content: "professional web designe|";
+  }
+  48% {
+      content: "professional web designer|";
+  }
+  50%{
+      content: " professional web designe|";
+  }
+  52% {
+      content: " professional web design|";
+  }
+  54% {
+      content: "professional web desig|";
+  }
+  56% {
+      content: "professional web desi|";
+  }
+  58% {
+      content: "professional web des|";
+  }
+  60% {
+      content: "professional web de|";
+  }
+  62% {
+      content: "professional web d|";
+  }
+  64% {
+      content:"professional web|";
+  }
+  66% {
+      content: "professional we|";
+  }
+  68% {
+      content: "professional w|";
+  }
+  70% {
+
+      content: "professional|";
+  }
+  72% {
+      content: "professiona|";
+  }
+  74% {
+      content: "profession|";
+  }
+  76% {
+      content: "professio|";
+  }
+  78% {
+      content: "professi|";
+  }
+  80% {
+      content: "profess|";
+  }
+  82% {
+      content: "profes|";
+  }
+ 84% {
+
+      content: "profe|";
+  }
+  86% {
+
+      content: "prof|";
+  }
+     88% {
+      content: "pr|";
+     }
+     90% {
+      content: "p|";
+     }
+     92% {
+      content: "professional web de|";
+     }
+     94% {
+      content: "professional web deve|";
+     }
+     96% {
+      content: "professional web devel|";
+     }
+     98% {
+      content: "professional web develo|";
+     }
+     100% {
+      content: "professional web developer|";
+     }
+}

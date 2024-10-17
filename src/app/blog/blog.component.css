@@ -1,0 +1,139 @@
+@media screen and (min-width:769px) and (max-width:1440px){
+  .blog{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .content-box{
+  margin-bottom:3% !important;
+  margin-top: 0px !important;
+  height: 100% !important;
+  }
+  .blog-header{
+    margin-left: 41% !important;
+  }
+  .line{
+    margin-left: 41% !important;
+  }
+}
+@media screen and (min-width:480px) and (max-width:768px) {
+  .blog{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .blog-header{
+    margin-left: 37% !important;
+  }
+  .line {
+    margin-left: 36% !important;
+  }
+  .blog-content{
+    height: 200px !important;
+  }
+  .content-box{
+  margin-bottom:3% !important;
+  margin-top: 0px !important;
+  height: 55% !important;
+  }
+
+ }
+@media screen and (max-width:640px) { }
+@media screen and (max-width:480px) {
+  .blog{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .blog-header{
+    margin-left: 25% !important;
+  }
+  .line{
+    margin-left: 23% !important;
+  }
+  .blog-content{
+    height: 200px !important;
+  }
+  .content-box{
+  margin-bottom:3% !important;
+  margin-top: 0px !important;
+  height: 55% !important;
+  }
+ }
+@media screen and (max-width:320px) { }
+
+.blog-header {
+  margin-left: 41%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 50px 0px;
+}
+.blog-header::after{
+  content: "";
+  width: 71px;
+  height: 1.5px;
+  position: absolute;
+  left: 71px;
+  bottom: 8px;
+  background-color: var(--main_color);
+  transform: translateX(-23px);
+}
+.blog-line {
+  width: 160px;
+  height: 1px;
+  margin-left: 40.5%;
+  background-color: var(--main_color);
+  transform: translateY(-76px);
+}
+.blog-line::after{
+  content: "";
+  width: 71px;
+  height: 1.5px;
+  position: absolute;
+  left: 34%;
+  bottom: -5px;
+  background-color: var(--main_color);
+  transform: translateX(0px);
+}
+.blog {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--second_color);
+}
+.blog-content {
+  background-color: var(--second_color) !important;
+  height: 80% !important;
+}
+
+.blog-content span {
+  padding:5px;
+  display: block;
+}
+.blog-content h5 {
+padding:5px;
+ cursor: pointer;
+ font-weight: 500;
+ width: 100%;
+ font-size: 1.5rem;
+ margin-top: 0% !important;
+}
+.blog-content p {
+  padding: 5px ;
+  line-height: 1.6rem;
+  font-size: 1.2rem;
+  width: 100%;
+  height: 7%;
+}
+.blog-content a {
+  padding: 20px;
+  text-decoration: none;
+ display: block;
+ position: relative;
+ width: fit-content;
+ color: #696961;
+ margin-bottom:3%  !important;
+}
+.blog-content a:hover {
+  color: var(--main_color);
+}
+.blog-content h5:hover {
+  color: var(--main_color);
+}
+
